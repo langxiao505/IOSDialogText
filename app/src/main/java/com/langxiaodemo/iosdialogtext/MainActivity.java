@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 /**
  * 模仿IOSdialog  例子，在studio中展示，
- * RecyclerView 例子使用
+ * RecyclerView 例子使用,后期demo，
  * */
 public class MainActivity extends Activity implements OnClickListener {
 	private Button btn1;
