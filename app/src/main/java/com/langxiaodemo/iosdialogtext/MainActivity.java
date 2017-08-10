@@ -46,7 +46,7 @@ public class MainActivity extends Activity implements OnClickListener {
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
-			case R.id.btn1:
+			case R.id.btn1://项目中用来注销UI显示
 				new ActionSheetDialog(MainActivity.this)
 						.builder()
 						.setTitle("清空消息列表后，聊天记录依然保留，确定要清空消息列表？")
